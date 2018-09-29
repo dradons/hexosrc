@@ -126,16 +126,12 @@ https://git-scm.com/book/it/v2/Git-on-the-Server-Setting-Up-the-Server
 如果我按下面的文章安装git估计问题少很多
 https://tecadmin.net/install-git-2-x-on-centos-rhel-and-fedora/#
 
-#hexo  /d/hexo/gitblog/dradons.github.io  /d/hexo/public
-### 拷贝到git库目录
-``` bash
-cp -R /d/hexo/public/* /d/hexo/gitblog/dradons.github.io
-cd /d/hexo/gitblog/dradons.github.io
+#hexo
+cp -R /d/tools/hexo/jetsen/public/* /d/tools/hexo/jetsen/.deploy/dradons
+cd /d/tools/hexo/jetsen/.deploy/dradons
 git add .
 git commit -m “update”
 git push origin master
- ```
-
 
 
 
