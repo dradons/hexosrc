@@ -15,7 +15,7 @@ git不提供Redhat的快捷安装方式，所以按照官网的说法进行源�
 1 以为我的系统没有注册，允许yum会报错，如下；
 This system is not registered with RHN.RHN support will be disabled.
 
-2删掉系统自带的yum
+2 删掉系统自带的yum
 rpm -qa|grep yum|xargs rpm -e --nodeps 
 rpm是Linux安装包的一种命令  
 
